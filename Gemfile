@@ -46,3 +46,8 @@ group :development do
 end
 
 gem 'httparty'
+
+gem 'devise'
+gem 'devise-jwt'
+
+gem 'jsonapi-serializer' # active_model_serializer is not working here, throw error: Undefined variable or method 'flash'
