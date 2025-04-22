@@ -5,5 +5,7 @@ Rails.application.routes.draw do
     registrations: 'users/registrations'
   }
 
-  
+  resources :weather, only: %i[index]
+  resources :notification, only: %i[index]
+
 end
