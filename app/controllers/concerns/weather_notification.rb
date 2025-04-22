@@ -10,7 +10,7 @@ module WeatherNotification
 
       temp_notify = case temp 
 
-                  when -10..5
+                  when ..5
                      "It's freezing at #{temp}°C. Dress warmly."
                   when 6..15
                      "It's quite cold at #{temp}°C. A jacket is a good idea."
